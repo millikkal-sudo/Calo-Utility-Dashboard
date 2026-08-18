@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  /* Calo brand */
+  --color-brand-50:  #e6f9f2;
+  --color-brand-100: #c0f0de;
+  --color-brand-500: #02b376;
+  --color-brand-600: #029c67;
+  --color-brand-700: #017a51;
+
+  --font-sans: 'Lato', ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Large tap targets: this is used one-handed, on a phone, often with gloves. */
+@layer base {
+  button, [role="button"], select, input {
+    min-height: 2.75rem;
+  }
+}
